@@ -108,7 +108,3 @@ data_imputed = KNNImputer(missing_values=np.nan, n_neighbors=3).fit_transform(da
 print("k neighbours error : ", mean_squared_error(data[missing_samples,1],data_imputed[missing_samples,1]))
 plt.scatter(data_imputed[:,0], data_imputed[:,1], marker='+', c=missing_samples)
 #plt.show()
-
-
-
-DSADSA
